@@ -1,0 +1,7 @@
+#Mon Jun 12 00:29:13 EAT 2023
+base.1=C\:\\Users\\user\\Desktop\\university\\Z_Final_Year_Project\\Blood_Finder\\Code\\Blood-Finder\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\user\\Desktop\\university\\Z_Final_Year_Project\\Blood_Finder\\Code\\Blood-Finder\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

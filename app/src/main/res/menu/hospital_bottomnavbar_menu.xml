@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hospitaldashboard"
+        android:icon="@drawable/ic_home"
+        android:title="Dashboard" />
+        <item
+            android:id="@+id/hospitalnearby"
+            android:icon="@drawable/ic_location"
+            android:title="Nearby Donor" />
+<!--        <item-->
+<!--            android:id="@+id/hospitalalert"-->
+<!--            android:icon="@drawable/alert"-->
+<!--            android:title="Notifications" />-->
+
+</menu>

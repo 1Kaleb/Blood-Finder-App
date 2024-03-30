@@ -1,0 +1,612 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bloodfinder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.SEND_SMS" />
+15-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:11:5-77
+16-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:11:22-74
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-database:19.5.1] C:\Users\user\.gradle\caches\transforms-3\7ad69fa1a806d9e698b4d7f7802e6e02\transformed\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:5-79
+20-->[com.google.firebase:firebase-database:19.5.1] C:\Users\user\.gradle\caches\transforms-3\7ad69fa1a806d9e698b4d7f7802e6e02\transformed\jetified-firebase-database-19.5.1\AndroidManifest.xml:25:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\user\.gradle\caches\transforms-3\77c535fd6e25b975620186aa696c9d63\transformed\jetified-play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\user\.gradle\caches\transforms-3\77c535fd6e25b975620186aa696c9d63\transformed\jetified-play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\user\.gradle\caches\transforms-3\77c535fd6e25b975620186aa696c9d63\transformed\jetified-play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:22-79
+28
+29    <application
+29-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:13:5-196:19
+30        android:allowBackup="true"
+30-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:14:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.1] C:\Users\user\.gradle\caches\transforms-3\f6cd9b9c788661b2a7333487669cacc9\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:15:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:16:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:17:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:18:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:19:9-40
+39        <activity
+39-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:21:9-24:59
+40            android:name="com.example.bloodfinder.Activities.UserViewHospital"
+40-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:22:13-79
+41            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+41-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:23:13-86
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:24:13-56
+43        <activity
+43-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:25:9-28:59
+44            android:name="com.example.bloodfinder.Activities.ViewEvent"
+44-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:26:13-72
+45            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+45-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:27:13-86
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:28:13-56
+47        <activity
+47-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:29:9-31:59
+48            android:name="com.example.bloodfinder.Activities.Hospital.HospitalProfile"
+48-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:30:13-87
+49            android:theme="@style/AppTheme.NoActionBar" />
+49-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:31:13-56
+50        <activity
+50-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:32:9-34:59
+51            android:name="com.example.bloodfinder.Activities.Hospital.HospitalProfileUpdate"
+51-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:33:13-93
+52            android:theme="@style/AppTheme.NoActionBar" />
+52-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:34:13-56
+53        <activity
+53-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:35:9-38:59
+54            android:name="com.example.bloodfinder.Activities.Hospital.SendAlert"
+54-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:36:13-81
+55            android:parentActivityName="com.example.bloodfinder.Activities.Hospital.HospitalDashboard"
+55-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:37:13-103
+56            android:theme="@style/AppTheme.NoActionBar" />
+56-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:38:13-56
+57        <activity
+57-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:39:9-42:59
+58            android:name="com.example.bloodfinder.Activities.Admin.AddEvent"
+58-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:40:13-77
+59            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+59-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:41:13-97
+60            android:theme="@style/AppTheme.NoActionBar" />
+60-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:42:13-56
+61        <activity
+61-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:43:9-46:59
+62            android:name="com.example.bloodfinder.Activities.Admin.AdminProfileUpdate"
+62-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:44:13-87
+63            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+63-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:45:13-97
+64            android:theme="@style/AppTheme.NoActionBar" />
+64-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:46:13-56
+65        <activity
+65-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:47:9-50:59
+66            android:name="com.example.bloodfinder.Activities.Admin.AdminProfile"
+66-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:48:13-81
+67            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+67-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:49:13-97
+68            android:theme="@style/AppTheme.NoActionBar" />
+68-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:50:13-56
+69        <activity
+69-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:51:9-54:59
+70            android:name="com.example.bloodfinder.Activities.Hospital.ShowVerifiedUsers"
+70-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:52:13-89
+71            android:parentActivityName="com.example.bloodfinder.Activities.Hospital.HospitalDashboard"
+71-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:53:13-103
+72            android:theme="@style/AppTheme.NoActionBar" />
+72-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:54:13-56
+73        <activity
+73-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:55:9-58:59
+74            android:name="com.example.bloodfinder.Activities.Hospital.ShowUsers"
+74-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:56:13-81
+75            android:parentActivityName="com.example.bloodfinder.Activities.Hospital.HospitalDashboard"
+75-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:57:13-103
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:58:13-56
+77        <activity
+77-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:59:9-62:59
+78            android:name="com.example.bloodfinder.Activities.Admin.ShowHospital"
+78-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:60:13-81
+79            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+79-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:61:13-97
+80            android:theme="@style/AppTheme.NoActionBar" />
+80-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:62:13-56
+81        <activity
+81-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:63:9-66:59
+82            android:name="com.example.bloodfinder.Activities.Admin.ViewHospital"
+82-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:64:13-81
+83            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+83-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:65:13-97
+84            android:theme="@style/AppTheme.NoActionBar" />
+84-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:66:13-56
+85        <activity
+85-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:67:9-70:59
+86            android:name="com.example.bloodfinder.Activities.Hospital.HospitalDashboard"
+86-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:68:13-89
+87            android:screenOrientation="portrait"
+87-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:69:13-49
+88            android:theme="@style/AppTheme.NoActionBar" />
+88-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:70:13-56
+89        <activity
+89-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:71:9-73:59
+90            android:name="com.example.bloodfinder.Activities.Admin.AdminMainActivity"
+90-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:72:13-86
+91            android:theme="@style/AppTheme.NoActionBar" />
+91-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:73:13-56
+92        <activity
+92-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:74:9-77:59
+93            android:name="com.example.bloodfinder.Activities.Admin.AdminSignUp"
+93-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:75:13-80
+94            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+94-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:76:13-97
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:77:13-56
+96        <activity
+96-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:78:9-81:59
+97            android:name="com.example.bloodfinder.Activities.Admin.AdminSendAlert"
+97-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:79:13-83
+98            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+98-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:80:13-97
+99            android:theme="@style/AppTheme.NoActionBar" />
+99-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:81:13-56
+100        <activity
+100-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:82:9-85:59
+101            android:name="com.example.bloodfinder.Activities.Admin.AddHospital"
+101-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:83:13-80
+102            android:parentActivityName="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+102-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:84:13-97
+103            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity -->
+103-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:85:13-56
+104        <!-- android:name="com.example.bloodfinder.Activities.Admin.AdminHomeFragment" -->
+105        <!-- android:exported="false" /> -->
+106        <activity
+106-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:88:9-91:59
+107            android:name="com.example.bloodfinder.Activities.Admin.AdminDashboard"
+107-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:89:13-83
+108            android:screenOrientation="portrait"
+108-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:90:13-49
+109            android:theme="@style/AppTheme.NoActionBar" />
+109-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:91:13-56
+110        <activity
+110-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:92:9-94:59
+111            android:name="com.example.bloodfinder.Activities.ProfileUpdate"
+111-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:93:13-76
+112            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity -->
+112-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:94:13-56
+113        <!-- android:name="com.example.bloodfinder.Activities.ForgotPassword" -->
+114        <!-- android:theme="@style/AppTheme.NoActionBar"/> -->
+115        <activity
+115-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:97:9-99:59
+116            android:name="com.example.bloodfinder.Activities.Reminder"
+116-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:98:13-71
+117            android:theme="@style/AppTheme.NoActionBar" />
+117-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:99:13-56
+118        <activity
+118-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:100:9-102:59
+119            android:name="com.example.bloodfinder.Activities.MessageActivity"
+119-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:101:13-78
+120            android:theme="@style/AppTheme.NoActionBar" />
+120-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:102:13-56
+121        <activity
+121-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:103:9-105:59
+122            android:name="com.example.bloodfinder.Activities.ChatActivity"
+122-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:104:13-75
+123            android:theme="@style/AppTheme.NoActionBar" />
+123-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:105:13-56
+124        <activity
+124-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:106:9-109:59
+125            android:name="com.example.bloodfinder.Activities.AvailableBlood"
+125-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:107:13-77
+126            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+126-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:108:13-86
+127            android:theme="@style/AppTheme.NoActionBar" />
+127-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:109:13-56
+128        <activity
+128-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:110:9-113:59
+129            android:name="com.example.bloodfinder.Activities.BloodInformation"
+129-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:111:13-79
+130            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+130-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:112:13-86
+131            android:theme="@style/AppTheme.NoActionBar" />
+131-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:113:13-56
+132        <activity
+132-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:114:9-117:59
+133            android:name="com.example.bloodfinder.Activities.AboutUs"
+133-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:115:13-70
+134            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+134-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:116:13-86
+135            android:theme="@style/AppTheme.NoActionBar" />
+135-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:117:13-56
+136        <activity
+136-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:118:9-120:59
+137            android:name="com.example.bloodfinder.Utils.NoGPS"
+137-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:119:13-63
+138            android:theme="@style/AppTheme.NoActionBar" />
+138-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:120:13-56
+139        <activity
+139-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:121:9-124:59
+140            android:name="com.example.bloodfinder.Activities.DonationPost"
+140-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:122:13-75
+141            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+141-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:123:13-86
+142            android:theme="@style/AppTheme.NoActionBar" />
+142-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:124:13-56
+143        <activity
+143-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:125:9-128:59
+144            android:name="com.example.bloodfinder.Activities.UserProfile"
+144-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:126:13-74
+145            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+145-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:127:13-86
+146            android:theme="@style/AppTheme.NoActionBar" />
+146-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:128:13-56
+147        <activity
+147-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:129:9-131:59
+148            android:name="com.example.bloodfinder.Activities.NoConneciton"
+148-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:130:13-75
+149            android:theme="@style/AppTheme.NoActionBar" />
+149-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:131:13-56
+150        <activity
+150-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:132:9-134:59
+151            android:name="com.example.bloodfinder.Activities.MainActivity"
+151-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:133:13-75
+152            android:theme="@style/AppTheme.NoActionBar" />
+152-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:134:13-56
+153        <activity
+153-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:135:9-139:55
+154            android:name="com.example.bloodfinder.Activities.BloodRequests"
+154-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:136:13-76
+155            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+155-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:137:13-86
+156            android:theme="@style/AppTheme.NoActionBar"
+156-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:138:13-56
+157            android:windowSoftInputMode="adjustPan" />
+157-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:139:13-52
+158        <activity
+158-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:140:9-142:59
+159            android:name="com.example.bloodfinder.Activities.Setup_Profile"
+159-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:141:13-76
+160            android:theme="@style/AppTheme.NoActionBar" />
+160-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:142:13-56
+161
+162        <uses-library
+162-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:144:9-146:40
+163            android:name="org.apache.http.legacy"
+163-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:145:13-50
+164            android:required="false" />
+164-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:146:13-37
+165
+166        <meta-data
+166-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:148:9-150:55
+167            android:name="com.google.android.geo.API_KEY"
+167-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:149:13-58
+168            android:value="@string/google_maps_key" />
+168-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:150:13-52
+169        <meta-data
+169-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:151:9-153:57
+170            android:name="preloaded_fonts"
+170-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:152:13-43
+171            android:resource="@array/preloaded_fonts" />
+171-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:153:13-54
+172
+173        <activity
+173-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:155:9-159:55
+174            android:name="com.example.bloodfinder.Activities.PostBloodRequest"
+174-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:156:13-79
+175            android:parentActivityName="com.example.bloodfinder.Activities.Dashboard"
+175-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:157:13-86
+176            android:theme="@style/AppTheme.NoActionBar"
+176-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:158:13-56
+177            android:windowSoftInputMode="adjustPan" />
+177-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:159:13-52
+178        <activity
+178-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:160:9-163:59
+179            android:name="com.example.bloodfinder.Activities.Dashboard"
+179-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:161:13-72
+180            android:screenOrientation="portrait"
+180-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:162:13-49
+181            android:theme="@style/AppTheme.NoActionBar" />
+181-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:163:13-56
+182        <activity
+182-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:164:9-167:59
+183            android:name="com.example.bloodfinder.Activities.SignUp"
+183-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:165:13-69
+184            android:screenOrientation="portrait"
+184-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:166:13-49
+185            android:theme="@style/AppTheme.NoActionBar" />
+185-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:167:13-56
+186        <activity
+186-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:168:9-177:20
+187            android:name="com.example.bloodfinder.Activities.SplashScreen"
+187-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:169:13-75
+188            android:screenOrientation="portrait"
+188-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:170:13-49
+189            android:theme="@style/AppTheme.NoActionBar" >
+189-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:171:13-56
+190            <intent-filter>
+190-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:172:13-176:29
+191                <action android:name="android.intent.action.MAIN" />
+191-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:173:17-69
+191-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:173:25-66
+192
+193                <category android:name="android.intent.category.LAUNCHER" />
+193-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:175:17-77
+193-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:175:27-74
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:178:9-180:59
+197            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+197-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:179:13-76
+198            android:theme="@style/Base.Theme.AppCompat" />
+198-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:180:13-56
+199
+200        <service
+200-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:182:9-188:19
+201            android:name="com.example.bloodfinder.Notifications.MyFirebaseMessagingService"
+201-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:183:13-92
+202            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+202-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:184:13-87
+203            <intent-filter>
+203-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:185:13-187:29
+204                <action android:name="android.service.notification.NotificationListenerService" />
+204-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:186:17-99
+204-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:186:25-96
+205            </intent-filter>
+206        </service>
+207        <service
+207-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:189:9-195:19
+208            android:name="com.example.bloodfinder.Activities.Hospital.PushNotification"
+208-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:190:13-65
+209            android:exported="false" >
+209-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:191:13-37
+210            <intent-filter>
+210-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:192:13-194:29
+211                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+211-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:193:17-78
+211-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:193:25-75
+212            </intent-filter>
+213        </service>
+214
+215        <activity
+215-->[com.karumi:dexter:6.2.2] C:\Users\user\.gradle\caches\transforms-3\6ea4049e0ebd62dd0504a4d5aa1b3ef9\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+216            android:name="com.karumi.dexter.DexterActivity"
+216-->[com.karumi:dexter:6.2.2] C:\Users\user\.gradle\caches\transforms-3\6ea4049e0ebd62dd0504a4d5aa1b3ef9\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+217            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+217-->[com.karumi:dexter:6.2.2] C:\Users\user\.gradle\caches\transforms-3\6ea4049e0ebd62dd0504a4d5aa1b3ef9\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+218        <activity
+218-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+219            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+219-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+220            android:excludeFromRecents="true"
+220-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+221            android:exported="true"
+221-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+222            android:launchMode="singleTask"
+222-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+223            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+223-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+224-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+225
+226        <service
+226-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+227            android:name="com.google.firebase.components.ComponentDiscoveryService"
+227-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+228            android:directBootAware="true"
+228-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+229            android:exported="false" >
+229-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+230            <meta-data
+230-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+231                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+231-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\user\.gradle\caches\transforms-3\2f08d9e53d6822e038954a12c5526fe3\transformed\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-database:19.5.1] C:\Users\user\.gradle\caches\transforms-3\7ad69fa1a806d9e698b4d7f7802e6e02\transformed\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+234                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+234-->[com.google.firebase:firebase-database:19.5.1] C:\Users\user\.gradle\caches\transforms-3\7ad69fa1a806d9e698b4d7f7802e6e02\transformed\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-database:19.5.1] C:\Users\user\.gradle\caches\transforms-3\7ad69fa1a806d9e698b4d7f7802e6e02\transformed\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\user\.gradle\caches\transforms-3\04d753ca088c85dd8dafa145e28b3183\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+237                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+237-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\user\.gradle\caches\transforms-3\04d753ca088c85dd8dafa145e28b3183\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\user\.gradle\caches\transforms-3\04d753ca088c85dd8dafa145e28b3183\transformed\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:39:13-41:85
+240                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+240-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:40:17-119
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:41:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:32:13-34:85
+243                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+243-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:33:17-96
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:34:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-3\815f4f8537b979cbfedefb953ae33659\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+246                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+246-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-3\815f4f8537b979cbfedefb953ae33659\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\user\.gradle\caches\transforms-3\815f4f8537b979cbfedefb953ae33659\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-3\8c5b2256da90d9546fb2cb9b82a791f5\transformed\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+249                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+249-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-3\8c5b2256da90d9546fb2cb9b82a791f5\transformed\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\user\.gradle\caches\transforms-3\8c5b2256da90d9546fb2cb9b82a791f5\transformed\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+251        </service>
+252
+253        <activity
+253-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+254            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+254-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+255            android:excludeFromRecents="true"
+255-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+258        <!--
+259            Service handling Google Sign-In user revocation. For apps that do not integrate with
+260            Google Sign-In, this service will never be started.
+261        -->
+262        <service
+262-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+263            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+263-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+264            android:exported="true"
+264-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+265            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+265-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+266            android:visibleToInstantApps="true" />
+266-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-3\9d90cdec75cf8ac90690d8cda2f60cfd\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+267        <!--
+268             FirebaseMessagingService performs security checks at runtime,
+269             but set to not exported to explicitly avoid allowing another app to call it.
+270        -->
+271        <service
+271-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:28:9-35:19
+272            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+272-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:29:13-82
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:30:13-43
+274            android:exported="false" >
+274-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\user\.gradle\caches\transforms-3\668fc8386e8fc2d363e99937bb4e336f\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
+275            <intent-filter android:priority="-500" >
+275-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:192:13-194:29
+276                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+276-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:193:17-78
+276-->C:\Users\user\Desktop\university\Z_Final_Year_Project\Blood_Finder\Code\Blood-Finder\app\src\main\AndroidManifest.xml:193:25-75
+277            </intent-filter>
+278        </service>
+279
+280        <provider
+280-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\b92a18175f98ec87b2df91448e540541\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+281            android:name="com.squareup.picasso.PicassoProvider"
+281-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\b92a18175f98ec87b2df91448e540541\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+282            android:authorities="com.example.bloodfinder.com.squareup.picasso"
+282-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\b92a18175f98ec87b2df91448e540541\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+283            android:exported="false" />
+283-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\b92a18175f98ec87b2df91448e540541\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+284
+285        <receiver
+285-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:37:9-44:20
+286            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+286-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:38:13-78
+287            android:exported="true"
+287-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:39:13-36
+288            android:permission="com.google.android.c2dm.permission.SEND" >
+288-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:40:13-73
+289            <intent-filter>
+289-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:41:13-43:29
+290                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+290-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:17-81
+290-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\user\.gradle\caches\transforms-3\dc22cc694f78c287aad113e3be328f3a\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:25-78
+291            </intent-filter>
+292        </receiver>
+293
+294        <activity
+294-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-3\655d22ac406d2f345e3c3423279b5b8d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+295            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+295-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-3\655d22ac406d2f345e3c3423279b5b8d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+296            android:exported="false"
+296-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-3\655d22ac406d2f345e3c3423279b5b8d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+297            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+297-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-3\655d22ac406d2f345e3c3423279b5b8d\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+298
+299        <provider
+299-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+300            android:name="com.google.firebase.provider.FirebaseInitProvider"
+300-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+301            android:authorities="com.example.bloodfinder.firebaseinitprovider"
+301-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+302            android:directBootAware="true"
+302-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+303            android:exported="false"
+303-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+304            android:initOrder="100" />
+304-->[com.google.firebase:firebase-common:19.3.1] C:\Users\user\.gradle\caches\transforms-3\df7180bf7a07bd063967eb1e88059cb3\transformed\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+305
+306        <meta-data
+306-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-3\51ef3d4dae02365f1eacadbf108af563\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+307            android:name="com.google.android.gms.version"
+307-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-3\51ef3d4dae02365f1eacadbf108af563\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+308            android:value="@integer/google_play_services_version" />
+308-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-3\51ef3d4dae02365f1eacadbf108af563\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+309
+310        <service
+310-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+311            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+311-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+312            android:exported="false" >
+312-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+313            <meta-data
+313-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+314                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+314-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+315                android:value="cct" />
+315-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\user\.gradle\caches\transforms-3\61ccb2369a3c36381df2509f2eba8b34\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+316        </service>
+317        <service
+317-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+318            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+318-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+319            android:exported="false"
+319-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+320            android:permission="android.permission.BIND_JOB_SERVICE" >
+320-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+321        </service>
+322
+323        <receiver
+323-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+324            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+324-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+325            android:exported="false" />
+325-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\1bb4e14b61005811b09c403c545f81d1\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+326    </application>
+327
+328</manifest>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Blood Finder</string>
+    <string name="Enter_Email">Email</string>
+    <string name="password">Password</string>
+    <string name="error">Password Should be 6 character long</string>
+    <string name="register">Register Yourself</string>
+    <string name="startjourney">Start your Journey to save humanity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string-array name="bloodgroupitems">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="sortby">
+        <item>Over All</item>
+        <item>City</item>
+    </string-array>
+
+    <string name="eligibility_">Eligibility Requirements</string>
+    <string name="female_">If you are female, you must:\n Be healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 5 inch\nWeigh at least 150 lbs.</string>
+    <string name="male_">If you are male, you must:\nBe healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 1 inch \nWeigh at least 130 lbs.\n</string>
+    <string name="info_">Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. \n\nWhy we need you to give blood?\n\n We need over 6000 blood donations every day to treat patients in need for people to give blood.\n\nEach year we need approximately 200000 new donors, as some donors can no longer give blood.Most people between ages of 17-65 are able to give blood. Around half our current donors are over 45.That is why we need more young people to start giving blood.</string>
+
+    <string name="aboutUs">This Application is developed by: \n\n Ayan Mahadi\n\n Etsehiwot Gizachew\n\n Kaleb Amsalu \n</string>
+
+    <string name="faq">Blood Information</string>
+    <string name="que1">Why should I donate blood?</string>
+    <string name="ans1">By Blood donation you greatly contribute towards a healthier, happier society by making available safe blood. Any one may need blood at any time may be ourselves or our near ones. You also benefit in other ways by donating blood as it reduces the number of people dying from shortage of blood.</string>
+    <string name="que2">Are their any side effects of Blood donations?</string>
+    <string name="ans2">There are no side effects of blood donation. The Blood bank staff ensures that your blood donation is a good experience as far as possible to enable you to become a repeat and a regular blood donor.</string>
+    <!--    <string name="que3">Can I get any disease like AIDS or Hepatitis or any other disease by Blood donation?</string>-->
+    <!--    <string name="ans3">As only sterile disposables are used to collect blood and these disposables can be used only one time it eliminates any chances of acquiring any disease from blood donation.</string>-->
+    <string name="que4">What are the eligibility criteria of blood donation?</string>
+    <string name="ans4">The eligible donors should be between 18 to 65 years of age, having a healthy pattern of lifestyle. The body weight should be above 45 kgs.</string>
+    <string name="que5">How often can I donate Blood?</string>
+    <string name="ans5">After every three – four months you can donate blood.</string>
+    <string name="que6">What should I eat before blood-donation?</string>
+    <string name="ans6">Anything that you normally eat at home. Eat a light snacks and a cold drink before blood donation is sufficient.</string>
+    <string name="que7">How much time does it take to donate blood?</string>
+    <string name="ans7">You will be asked to fill a donor form. Your medical history will be taken by a medical personnel and a small drop of blood to check blood group as well as Hb for anemia. After simple medical screening process and being found medically fit to donate, you will be sent to blood collection room. The actual blood collection from the donor takes about 7–10 minutes followed by a little rest and refreshments.</string>
+    <!--    <string name="que8">What happens to blood I donate?</string>-->
+    <!--    <string name="ans8"><![CDATA[Your blood in the blood bank is processed and within 6 hours of Blood collection It is separated into components viz. Red Cells, White Cells, Plasma & Platelets. These Blood components are made available for the patients. By making blood components, all the useful parts of blood can be used and from one unit of blood four patients can be benefited.]]></string>-->
+    <string name="que9">What are the post donation care?</string>
+    <string name="ans9">Care that a donor should take after donating blood=> 1. Eat and drink the refreshment provided before leaving the blood bank 2. Drink more liquids than usual in next 4 hours 3. Avoid consuming alcohol until you have eaten something 4. Don\'t smoke for next 30 minutes 5. Avoid climbing stairs for next 30 minutes 6. If fainting or dizziness occurs, either lie down or sit with the head between the knees.</string>
+
+
+</resources>

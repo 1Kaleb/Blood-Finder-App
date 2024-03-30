@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Admin.ViewHospital">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarViewHospital"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitop_bold"
+            android:text="Registered Hospital"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewViewHospital"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_below="@+id/search_user_box"
+        android:layout_marginTop="10dp"
+        android:overScrollMode="never" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/search_field"-->
+<!--        android:layout_width="277dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/toolbarViewHospital"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:background="@drawable/search_layout"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/nunito_semibold"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingRight="20dp"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        android:text="Search Here"-->
+<!--        android:textColor="#999999"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/search_button"-->
+<!--        android:layout_width="102dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/toolbarViewHospital"-->
+<!--        android:layout_marginLeft="12dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_toRightOf="@id/search_field"-->
+<!--        android:background="@color/cardview_shadow_end_color"-->
+<!--        android:paddingRight="30dp"-->
+<!--        app:srcCompat="@drawable/search_btn" />-->
+    <LinearLayout
+        android:id="@+id/search_user_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarViewHospital"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/uSearch"
+            app:iconifiedByDefault="false"
+            app:searchHintIcon="@null"
+            app:queryHint="Search Here"
+            android:focusable="false"
+            android:background="@drawable/search_layout"
+            />
+
+
+        <!--            <EditText-->
+        <!--                android:id="@+id/search_field"-->
+        <!--                android:layout_width="300dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_margin="15dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@drawable/search_layout"-->
+        <!--                android:ems="10"-->
+        <!--                android:fontFamily="@font/nunito_semibold"-->
+        <!--                android:inputType="text"-->
+        <!--                android:paddingLeft="20dp"-->
+        <!--                android:paddingTop="10dp"-->
+        <!--                android:paddingRight="20dp"-->
+        <!--                android:paddingBottom="10dp"-->
+        <!--                android:hint="Search Here"-->
+        <!--                android:textColor="#999999"-->
+        <!--                android:textSize="18sp" />-->
+
+        <!--            <ImageButton-->
+        <!--                android:id="@+id/search_button"-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_margin="15dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@color/cardview_shadow_end_color"-->
+        <!--                app:srcCompat="@drawable/search_btn" />-->
+
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/bothFilter"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/search_user_box"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:elevation="10dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="3"-->
+<!--        android:background="@drawable/box">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/filter"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtFilter"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Filter"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <View-->
+<!--            android:layout_width="1dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:background="@color/colorPrimaryDark" />-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/filterCity"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="10dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtCity"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="City:"-->
+<!--                android:layout_marginRight="20dp"/>-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinnerCityFilter"-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="30dp" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/filterBloodGroup"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="5dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnFilter"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:background="@drawable/btn_bg"-->
+<!--                android:text="ok"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:layout_weight="1"/>-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+
+</RelativeLayout>
